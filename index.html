@@ -1,25 +1,262 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
-    <LINK href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!-- <link rel="stylesheet" href="style.css?v=0.0.0.1"> -->
-    <title>Resume - Monika Mistri</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Monika Mistry</title>
+    <link rel="preload" as="style" href="css/css2.css" />
+    <link rel="stylesheet" href="css/css3.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="css/css2.css" />
+    </noscript>
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/aos.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+    <noscript>
+        <style type="text/css">
+            [data-aos] {
+                opacity: 1 !important;
+                transform: translate(0) scale(1) !important;
+            }
+        </style>
+    </noscript>
+    <script src="scripts/jquery-3.5.1.min.js"></script>
     <script>
-        debugger
-    </script>
-</head>
-<body>
-    <br />
-    <div class="container-fluid text-center">
-        <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8 text-left">
-                <h2 id="header" class="text-center"><p>Monika Mistry</p></h2>
+        $(document).ready(function () {
+            $('#downloadResume').click(function (e) {
+                e.preventDefault();  //stop the browser from following
+                window.location.href = 'document/Resume.docx';
+            });
+        });
 
-                <hr />
+
+    </script>
+    <style>
+        .edu-div {
+            margin-bottom: 1rem;
+        }
+
+        .card-body {
+            padding: 0.9rem 0.9rem !important;
+        }
+    </style>
+</head>
+<body id="top">
+
+    <div class="page-content">
+        <div class="container">
+            <div class="cover shadow-lg bg-white">
+                <div class="cover-bg p-2 text-white">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2 class="h1 mt-1" data-aos="fade-left" data-aos-delay="0">Monika Mistry</h2>
+                            <p data-aos="fade-left" data-aos-delay="100">Sr. Software Developer</p>
+                            <div class="d-print-none" data-aos="fade-left" data-aos-delay="200">
+                                <a class="btn btn-light text-dark shadow-sm mt-1 me-1" id="downloadResume">Download CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-section pt-4 px-3 px-lg-4 mt-1">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="h3 mb-2">About Me</h2>
+                            <p>Hello! I am Monika Mistry. I have Over 6 years of experience in Software Development. I have knowledge related to Strong debugging and troubleshooting skills to analyse the root cause of the problem technically, Also Experience working with SCRUM methodologies as well as Waterfall model.</p>
+                        </div>
+                        <div class="col-md-5 offset-md-1">
+                            <div class="row mt-2">
+                                <div class="col-sm-4">
+                                    <div class="pb-1">DOB</div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="pb-1 text-secondary">25th Mar,1994</div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="pb-1">Email</div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="pb-1 text-secondary">monikamistri1524@gmail.com</div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="pb-1">Phone</div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="pb-1 text-secondary">7285852066</div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="pb-1">Linkedin Profile</div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="pb-1 text-secondary">
+                                        <a href="https://www.linkedin.com/in/monika-mistry-4149b1199" id="linkedinProfile">monika-mistry</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="d-print-none" />
+                <div class="skills-section px-3 px-lg-4">
+                    <h2 class="h3 mb-2">Professional Skills</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-2">
+                                <span>HTML / CSS</span>
+                                <div class="progress my-1">
+                                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <span> Asp.Net / C# / MVC /Asp.Net Core / WPF / Entity Framework </span>
+                                <div class="progress my-1">
+                                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <span>Kendo UI / MS Office Add-in </span>
+                                <div class="progress my-1">
+                                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <span>PM Tools (GIT / TFS / Tortoise SVN / Trello / Slack)</span>
+                                <div class="progress my-1">
+                                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-2">
+                                <span>JavaScript / JQuery / Bootstrap</span>
+                                <div class="progress my-1">
+                                    <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <span>Web Services / Web API / WCF </span>
+                                <div class="progress my-1">
+                                    <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <span>SQL / LINQ</span>
+                                <div class="progress my-1">
+                                    <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="d-print-none" />
+                <div class="work-experience-section px-3 px-lg-4">
+                    <h2 class="h3 mb-2">Work Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-card timeline-card-primary card shadow-sm">
+                            <div class="card-body">
+                                <div class="h5 mb-1">PlusHRM</div>
+                                <div class="text-muted text-small mb-1">Platform : Asp.Net MVC with Repository pattern</div>
+                                <div class="text-muted text-small mb-1">Database : SQL server</div>
+                                <div>PlusHRM is System that manages HR works. It manages employee leaves, timesheets, projects, employee tasks, tickets, holidays, organization settings. In this system mail also sends for reminders, approvals, or feedbacks. System manages appraisals and resignation process also in same environment.  There are widgets available on dashboard that shows like upcoming activities, employee birthdays, sessions. </div>
+                            </div>
+                        </div>
+                        <div class="timeline-card timeline-card-primary card shadow-sm">
+                            <div class="card-body">
+                                <div class="h5 mb-1">Leadmaster API</div>
+                                <div class="text-muted text-small mb-1">Platform : Web API</div>
+                                <div class="text-muted text-small mb-1">Database : SQL server</div>
+                                <div>Leadmaster API used for manage Leadmaster mobile Application. </div>
+                            </div>
+                        </div>
+                        <div class="timeline-card timeline-card-primary card shadow-sm">
+                            <div class="card-body">
+                                <div class="h5 mb-1">Leadmaster CRM</div>
+                                <div class="text-muted text-small mb-1">Platform : Asp.Net MVC</div>
+                                <div class="text-muted text-small mb-1">Database : SQL server</div>
+                                <div>Leadmaster is the ALL-IN-ONE /LEAD Management Solution. LeadMaster delivers tangible benefits to sales, marketing and call center teams worldwide through its web-based LeadMaster CRM application. The company’s cloud-based application closes the loop between marketing and sales by tracking leads and opportunities in real time throughout the sales cycle, from demand generation to lead closure. Combining CRM, sales force automation, marketing automation and virtual call center capabilities, LeadMaster helps companies pinpoint where leads are quickly converting into revenue in order to increase close ratios and maximize return on investment on marketing campaigns. It is cloud based so it is easy to manage, easy to deploy, easy to learn, and easy to use.</div>
+                            </div>
+                        </div>
+                        <div class="timeline-card timeline-card-primary card shadow-sm">
+                            <div class="card-body">
+                                <div class="h5 mb-1">PMPSync Desktop Application</div>
+                                <div class="text-muted text-small mb-1">Platform : WPF </div>
+                                <div class="text-muted text-small mb-1">Database : - </div>
+                                <div>PMPSync is a Desktop Application that works in background. PMPSync manages files of web application. Any user update file on cloud on his details then PMPSync auto download that file in system, If User add file in particular related folder in local system then file auto upload on that server where web application run. Every 5 minutes PMPSync auto refresh and if any changes found on web application server or local folder then auto upload or download on both side.</div>
+                            </div>
+                        </div>
+                        <div class="timeline-card timeline-card-primary card shadow-sm">
+                            <div class="card-body">
+                                <div class="h5 mb-1">CRMTiger Outlook extension (Desktop Application)</div>
+                                <div class="text-muted text-small mb-1">Platform : MS  Outlook , ASP.NET Windows Form</div>
+                                <div class="text-muted text-small mb-1">Database : -</div>
+                                <div>
+                                    CRMTiger Outlook Extension manages power of mail, calendar and contacts of application.Extension manages Events and reminder. Also manages profile of contacts, user can  update information of contacts from extension directly.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-card timeline-card-primary card shadow-sm">
+                            <div class="card-body">
+                                <div class="h5 mb-1">SqueakyClean Booking</div>
+                                <div class="text-muted text-small mb-1">Platform : Angular 1.0 and Asp.net MVC</div>
+                                <div class="text-muted text-small mb-1">Database : SQL server</div>
+                                <div>This web development for the purpose of booking of Cleaning Staff like, Floor cleaning, Kitchen deep cleaning, Sofa cleaning, Office cleaning etc. services. Any user can register to the application and book slot and pay for required payment. Also User receives notification from site and once Service Done Then Updated to User related to service completion by Staff and Staff details and time.</div>
+                            </div>
+                        </div>
+                        <div class="timeline-card timeline-card-primary card shadow-sm">
+                            <div class="card-body">
+                                <div class="h5 mb-1">GST Invoice Management System</div>
+                                <div class="text-muted text-small mb-1">Platform : ASP.NET Windows Application</div>
+                                <div class="text-muted text-small mb-1">Database : SQL server</div>
+                                <div>This Application is for the GST ready invoicing and GST reports for the submit GST returns as well. User can manage multiple Items, Category wise with HSN Code and multiple GST percentage. User can manage Tax Invoice, Bill of Supply and Service Invoice as well. </div>
+                            </div>
+                        </div>
+                        <div class="timeline-card timeline-card-primary card shadow-sm">
+                            <div class="card-body">
+                                <div class="h5 mb-1">Desktop Widget (Task management System)</div>
+                                <div class="text-muted text-small mb-1">Platform : Microsoft Visual Studio 2015, WPF</div>
+                                <div class="text-muted text-small mb-1">Database : noSQL</div>
+                                <div>This Application developed in WPF for the desktop cross platform UI for the task management system with keyboard and mouse activity logged in the database, and automatic start timer and stop after 3 min of inactivity of the keyboard and mouse. There is drag and drop functionality available for board and task list. And lot many more functionality to track the project and task manage. </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="d-print-none" />
+                <div class="page-break"></div>
+                <div class="education-section px-3 px-lg-4 pb-4">
+                    <h2 class="h3 mb-2">Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-card timeline-card-success card shadow-sm edu-div">
+                            <div class="card-body">
+                                <div class="h5 mb-1">Bachelor of Computer Enginnering <span class="text-muted h6">from Ahmedabad Institute Of Technology</span></div>
+                                <div class="text-muted h6 mb-2">CGPA : 7.09</div>
+                                <div class="text-muted text-small">Passing year : 2014 – 2015</div>
+                            </div>
+                        </div>
+                        <div class="timeline-card timeline-card-success card shadow-sm edu-div">
+                            <div class="card-body">
+                                <div class="h5 mb-1">HSC, <span class="text-muted h6">GSEB</span></div>
+                                <div class="text-muted h6 mb-2">Percentage: 64.50%</div>
+                                <div class="text-muted text-small">Passing year : 2010 – 2011</div>
+                            </div>
+                        </div>
+                        <div class="timeline-card timeline-card-success card shadow-sm edu-div">
+                            <div class="card-body">
+                                <div class="h5 mb-1">SSC, <span class="text-muted h6">GSEB</span></div>
+                                <div class="text-muted h6 mb-2">Percentage: 82.31%</div>
+                                <div class="text-muted text-small">Passing year : 2008 – 2009</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="d-print-none" />
+
             </div>
-            <div class="col-sm-2"></div>
         </div>
     </div>
+
+    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="scripts/aos.js?ver=1.2.0"></script>
+    <script src="scripts/main.js?ver=1.2.0"></script>
 </body>
 </html>
