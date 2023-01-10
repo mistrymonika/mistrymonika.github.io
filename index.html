@@ -27,7 +27,7 @@
         $(document).ready(function () {
             $('#downloadResume').click(function (e) {
                 e.preventDefault();  //stop the browser from following
-                window.location.href = 'document/Resume.docx';
+                window.open('document/Resume.pdf');
             });
         });
 
@@ -63,7 +63,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <h2 class="h3 mb-2">About Me</h2>
-                            <p>Hello! I am Monika Mistry. I have Over 6 years of experience in Software Development. I have knowledge related to Strong debugging and troubleshooting skills to analyse the root cause of the problem technically, Also Experience working with SCRUM methodologies as well as Waterfall model.</p>
+                            <p>Hello! I am Monika Mistry. I have Over 6.5+ years of experience in Software Development. I have knowledge related to Strong debugging and troubleshooting skills to analyse the root cause of the problem technically, Also Experience working with SCRUM methodologies as well as Waterfall model.</p>
                         </div>
                         <div class="col-md-5 offset-md-1">
                             <div class="row mt-2">
@@ -183,6 +183,32 @@
                 <div class="Project-section px-3 px-lg-4">
                     <h2 class="h3 mb-2">Projects</h2>
                     <div class="timeline">
+					<div class="timeline-card timeline-card-primary card shadow-sm">
+                            <div class="card-body">
+                                <div class="h5 mb-1">eWallet</div>
+                                <div class="text-muted text-small mb-1">Platform : .Net core MVC</div>
+                                <div class="text-muted text-small mb-1">Database : SQL server</div>
+                                <div>
+                                    This application is developed in asp.net Core.
+									It is a transaction management system where admin can show transaction list of merchants. Transaction was done by POS machines
+									and crypto websites. eWallet system displays list of merchants, merchants basic info, bank informations, settlement sheets for every
+									merchants.
+									Merchants can also register by himself as ‘Become a merchant’. Admin can approve his request
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-card timeline-card-primary card shadow-sm">
+                            <div class="card-body">
+                                <div class="h5 mb-1">Progastro (Patient Management Software)</div>
+                                <div class="text-muted text-small mb-1">Platform : Asp.Net MVC with Repository pattern</div>
+                                <div class="text-muted text-small mb-1">Database : SQL server</div>
+                                <div>
+                                    This Application developed in Asp.net MVC.
+                                    It is a patient management platform where hospitals, clinics, and doctors can keep track of their patients. <br />This web-based platform has made patient management much easier and convenient.Doctors can use this online tool to schedule appointments with the patient and monitor therapy.<br /><br /> This may include personal information about the patient, reports, findings, images, and videos (made during therapy) to correctly comprehend the patient's condition and provide medication.Essentials such as patient equipment, medicines, consumables, monitored information, origins, rooms assigned to the patient, preparations, types of exams, and so on are all stored here.
+                                    Implement Fhir integration for getting patient details by SNS number.
+                                </div>
+                            </div>
+                        </div>
                         <div class="timeline-card timeline-card-primary card shadow-sm">
                             <div class="card-body">
                                 <div class="h5 mb-1">PlusHRM</div>
